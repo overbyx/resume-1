@@ -1,8 +1,8 @@
 
 
 body {
-    background-color: #f2f2f2;
-    color: #0f141e;
+    background-color: #fcfcfc;
+    color: #030303;
 
     font-size: 16px;
     font-weight: 600;
@@ -41,7 +41,7 @@ a:visited {
 .info p {
     color: #49a341;
     margin: 0;
-    font-style: italic;
+    font-style: italic; 
     font-weight: bold;
     text-decoration: none;
     /*text-transform: uppercase;*/
@@ -120,7 +120,7 @@ a:visited {
     padding-bottom: 10px;
 }
 
-.table td:nth-child(1), .table td:nth-child(3) {
+.table td:nth-child(1), .table td:nth-child(2) {
     color: #6f943f;
 }
 
@@ -135,6 +135,11 @@ a:visited {
 
 .link-list li {
     margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #945a5a;
 }
+
+
+.contact h2 {
+    text-align: center;
+} 
