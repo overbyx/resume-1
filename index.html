@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <title>Nikita Resume</title>
     <link href="styles.css" rel="stylesheet"/>
+     
 </head>
 <body>
     <div class="container">
         <div class="info">
-            <img src="ava.jpg" alt="Тут моя фотка" class="ava" /></td>
-            <h1>Никита Заралкин</h1>
-            <p><em>Я учусь создавать сайты</em></p>
-            <p><strong>Я люблю читать книги</strong></p></td>
+            <img src="avatar.jpg" alt="Тут моя фотка" class="ava" /></td>
+            <div class="info-text">
+                <h1>Никита Заралкин</h1>
+                <p><em>Учусь создавать сайты</em></p>
+                <p><em>Этот у меня первый</em></p></td>
 
-            <h4>Мои соц. сети</h4>
-            
-            <a href="https://instagram.com/_grandking_" target="_blank">Инста</a>
-            |
-            <a href="https://t.me/grandking_u2" target="_blank">Телега</a>
+                <h4>Сижу тут:</h4>
+                
+                <a href="https://instagram.com/_grandking_" target="_blank">Инста</a>
+                |
+                <a href="https://t.me/grandking_u2" target="_blank">Телега</a>
+            </div>
         
         </div>
         
@@ -27,7 +30,7 @@
         
 
         <div class="card bg-yellow">
-            <h2>Где я работал</h2>
+            <h2>Сферы деятельности</h2>
             <ol class="list">
                 <li>Строительство</li>
                 <li>Проектирование</li>
@@ -67,10 +70,10 @@
             <h2>Основная деятельность на данный момент</h2>
             <ul class="link-list">
                 <li>
-                    <a href="https://polis-group.ru/project/zhk-polis-lavrgroup.ru">Мой объект</a>
+                    <a href="https://polis-group.ru/project/zhk-polis-lavrgroup.ru" target="_blank">Мой объект</a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=4639s">CSS для Начинающих - Практический Курс</a>
+                    <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=4639s" target="_blank">CSS для Начинающих - Практический Курс</a>
                 </li>
             </ul>
         </div>
@@ -83,25 +86,36 @@
             <h2>Cвязаться со мной</h2>
 
             <form action="/">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите свое имя">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите свое имя">
+                    </div>
 
-                <br>
+                    
+                    <div class="form-group">
+                        <label for="email">Ваша почта:</label>
+                        <input type="email" id="email" placeholder="Введите свою почту" >
+                    </div>
+                </div>
 
-                <label for="email">Ваша почта:</label>
-                <input type="email" id="email" placeholder="Введите свою почту" >
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                
+                    <textarea name="" id="text" cols="15" rows="2"></textarea>
+                </div>
 
-                <br>
+                
 
-                <label for="text">Ваше сообщение:</label>
-                <br>
-                <textarea name="" id="text" cols="15" rows="2"></textarea>
-
-                <br>
-
-                <input type="submit" value="Связаться">
+                <input class="btn" type="submit" value="Связаться">
             </form>
-        </div>    
+            <div class="position">
+                <div class="box"></div>
+            </div>
+        </div>
+        
+        
 
 
 
@@ -114,6 +128,7 @@
     </div>
  
 <div style="margin-bottom: 400px;"></div>
+    
 
 </body>
 </html>
